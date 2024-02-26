@@ -1,0 +1,136 @@
+2-
+String nomeProduto = "Produto";
+float precoProduto = 2.99;
+String marcaDoProduto = "marca";
+int quantidadeProduto = 23;
+String descricaoDeProduto = "descrição";
+String nomeProduto = "nome";
+int numeroProduto = 123;
+float precoProduto = 3.33;
+int estoqueProduto = 45;
+int totalDeProduto = 300;
+
+3-
+public class DadosAluno {
+
+    public static void main(String[] args) {
+        String nomeDoAluno = "Nome do Aluno";
+        int idadeDoAluno = 20;
+        double notaProva1 = 8.5;
+        double notaProva2 = 9.0;
+        double mediaFinal = (notaProva1 + notaProva2) / 2;
+
+        System.out.println("Nome do Aluno: " + nomeDoAluno);
+        System.out.println("Idade do Aluno: " + idadeDoAluno);
+        System.out.println("Nota da Prova 1: " + notaProva1);
+        System.out.println("Nota da Prova 2: " + notaProva2);
+        System.out.println("Média Final: " + mediaFinal);
+    }
+}
+
+4-
+public class ControleEstoque {
+    public static void main(String[] args) {
+//variáveis
+    String nomeProduto = "produto1";
+    String categoria = "sabonete";
+    float preco = 2.99;
+    int quantidade = 33;
+    
+    String nomeProduto2 = "produto2";
+    String categoria2 = "refrigerante";
+    float preco2 = 7.00;
+    int quantidade2 = 20;
+    
+    String nomeProduto3 = "produto3";
+    String categoria3 = "batata";
+    float preco3 = 2.99;
+    int quantidade3 = 14;
+
+    }
+}
+
+
+5-
+  public class ControleEstoque {
+    public static void main(String[] args) {
+        // Declaração das variáveis aqui
+    String produto1 = "smartphone";
+    String marca1 = "samsung";
+    float preco1 = 1500;
+    int quantidade1 = 22;
+    
+    String produto2 = "laptop";
+    String marca2 = "dell";
+    float preco2 = 3000;
+    int quantidade2= 30;
+    
+    String produto3 = "fone bluetooth";
+    String marca3 = "apple";
+    float preco3 = 150;
+    int quantidade3 = 30;
+    
+    System.out.println("Dados do Smartphone:");
+    System.out.println("Nome: " + produto1);
+    System.out.println("marca" + marca1);
+    System.out.println("preço" + preco1);
+    System.out.println("marca" + quantidade1);
+    
+    System.out.println("Dados do Laptop:");
+    System.out.println("Nome: " + produt2);
+    System.out.println("marca" + marca2);
+    System.out.println("preço" + preco2);
+    System.out.println("marca" + quantidade2);
+    
+        System.out.println("Dados do Laptop:");
+    System.out.println("Nome: " + produt3);
+    System.out.println("marca" + marca3);
+    System.out.println("preço" + preco3);
+    System.out.println("marca" + quantidade3);
+    
+
+    }
+}
+
+6-
+public class Main {
+public static void main(String[] args) {
+       
+  
+String numeroProduto = "ABC123"; 
+double precoProduto = 25.0;  
+String descricaoProduto = "Fone de ouvido Bluetooth";
+
+System.out.println("Dados do Produto:");
+System.out.println("Número: " + numeroProduto);  
+System.out.println("Preço: $" + precoProduto);
+System.out.println("Descrição: " + descricaoProduto);
+    }
+}
+
+7-
+public class ControleEstoque {
+public static void main(String[] args) {
+     
+ String nomeProduto;
+ double precoProduto;
+ int quantidadeProduto;
+        
+ nomeProduto = "Fone de Ouvido";
+ precoProduto = 29.99;
+ quantidadeProduto = 10; 
+ String marcaProduto; 
+ marcaProduto = "Sony"; 
+
+
+ String nomeProduto1 = "Outro Produto";
+ double precoProduto1 = 19.99;
+        
+ System.out.println("Dados do Produto:");
+ System.out.println("Nome: " + nomeProduto);
+ System.out.println("Marca: " + marcaProduto);
+ System.out.println("Preço: $" + precoProduto);
+ System.out.println("Quantidade em estoque: " + quantidadeProduto);
+    }
+}
+

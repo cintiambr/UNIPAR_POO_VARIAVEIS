@@ -1,0 +1,11 @@
+1-
+int numero = 22;
+String palavra = arroz;
+char letra = B;
+float pi = 3.14159;
+boolean sim = true;
+boolean nao = false;
+double altura = 1.55;
+String nome = joão;
+char letra2 = C;
+int idade = 12;

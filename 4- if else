@@ -1,0 +1,87 @@
+1- 
+import java.util.Scanner;
+
+class HelloWorld {
+    public static void main(String[] args) {
+        Scanner scanner = new Scanner(System.in);
+        
+        int age = 0;
+        
+        System.out.println("Qual sua idade: ");
+        age = scanner.nextInt();
+        
+        if (age >= 18) {
+            System.out.println("Voce e maior de idade");
+        } else {
+            System.out.println("Voce e menor de idade");
+        }
+    }
+}
+
+2-
+import java.util.Scanner;
+
+class HelloWorld {
+    public static void main(String[] args) {
+        Scanner scanner = new Scanner(System.in);
+        
+        double number = 0;
+        
+        System.out.println("Infome um numero: ");
+        number = scanner.nextDouble();
+        
+        if (number % 2 == 0) {
+            System.out.println("O número é par");
+        } else {
+            System.out.println("O número é impar");
+        }
+    }
+}
+
+3-
+import java.util.Scanner;
+
+class HelloWorld {
+    public static void main(String[] args) {
+        Scanner scanner = new Scanner(System.in);
+
+        String password = "";
+        String user = "";
+        
+        System.out.println("Infome o usuario: ");
+        user = scanner.next();
+        
+        System.out.println("Infome a senha: ");
+        password = scanner.next();
+        
+        if (user.equals("user") && password.equals("12345")) {
+            System.out.println("Login bem-sucedido");
+        } else {
+            System.out.println("Nome de usuario ou senha incorretos");
+        }
+    }
+}
+
+4-
+import java.util.Scanner;
+
+class HelloWorld {
+    public static void main(String[] args) {
+        Scanner scanner = new Scanner(System.in);
+        
+        double firstNumber = 0;
+        double secondNumber = 0;
+        
+        System.out.println("Qual o primeiro numero: ");
+        firstNumber = scanner.nextDouble();
+        
+        System.out.println("Qual o segundo numero: ");
+        secondNumber = scanner.nextDouble();
+        
+        if (firstNumber > secondNumber) {
+            System.out.println("O numero " + firstNumber + " e maior");
+        } else {
+            System.out.println("O numero " + secondNumber + " e maior");
+        }
+    }
+}

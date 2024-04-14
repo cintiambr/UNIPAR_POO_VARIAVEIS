@@ -1,0 +1,58 @@
+1- 
+class Divisao {
+    public static void main(String[] args) {
+        for (int i = 0; i < 51; i++){
+            if (i % 3 == 0){
+                System.out.println(i + " = Fizz");
+            }
+            if (i % 5 ==0){
+                System.out.println(i + " = Buzz");
+            }   
+            if (i % 3 == 0 || i % 5 == 0){
+                System.out.println(i + " = FizzBuzz");    
+            }
+        }
+    }
+}
+
+2-
+public class Atividade2 {
+    public static void main(String[] args) {
+        int i = 10;
+
+        for (i = 10; i >= 0; i--) {
+            System.out.println("+ i + " patinhos foram passear Além das montanhas para brincar. A mamãe gritou: Quá, quá, quá, quá Mas só " + i + " patinhos voltaram de lá");
+
+            if (i == 0) {
+                System.out.println("mamãe patinha foi procurar. Além das montanhas na beira do mar. A mamãe gritou: Quá, quá, quá, quá, e os 10 patinhos voltaram de lá.");
+            }
+        }
+    }
+}
+
+3-
+import java.util.Scanner;
+
+public class Atividade3 {
+    public static void main(String[] args) {
+        Scanner scanner = new Scanner(System.in);
+
+        int ano = 0;
+        int mes = 0;
+        int dia = 0;
+        int result = 0;
+
+        System.out.println("Informe sua idade em anos, meses e dias");
+        System.out.print("Informe sua: ");
+        year = scanner.nextInt();
+        System.out.print("Informe os meses: ");
+        month = scanner.nextInt();
+        System.out.print("Informe os dias: ");
+        day = scanner.nextInt();
+
+        result = (ano * 365 + mes * 30 + dia);
+
+        System.out.println("Voce tem " + result + " de idade");
+
+    }
+}

@@ -1,0 +1,66 @@
+public class Produto {
+    private String nome;
+    private double preco;
+    private int quantidadeEmEstoque;
+
+    public Produto(String nome) {
+        this.nome = nome;
+        this.preco = 0.0;
+        this.quantidadeEmEstoque = 0;
+    }
+
+    public Produto(String nome, double preco) {
+        this.nome = nome;
+        this.preco = preco;
+        this.quantidadeEmEstoque = 0;
+    }
+
+    public Produto(String nome, double preco, int quantidadeEmEstoque) {
+        this.nome = nome;
+        this.preco = preco;
+        this.quantidadeEmEstoque = quantidadeEmEstoque;
+    }
+
+    public void exibirInformacoes() {
+        System.out.println("Nome do produto: " + nome);
+        System.out.println("Preço: " + preco);
+        System.out.println("Quantidade em estoque: " + quantidadeEmEstoque);
+    }
+}
+import java.util.Scanner;
+
+public class Main {
+    public static void main(String[] args) {
+        Scanner scanner = new Scanner(System.in);
+
+        System.out.println("Crie um produto usando apenas o nome:");
+        System.out.print("Informe o nome do produto: ");
+        String nome = scanner.nextLine();
+        Produto produto1 = new Produto(nome);
+        System.out.println("\nInformações do produto:");
+        produto1.exibirInformacoes();
+
+        System.out.println("\nCrie um produto usando o nome e o preço:");
+        System.out.print("Informe o nome do produto: ");
+        nome = scanner.nextLine();
+        System.out.print("Informe o preço do produto: ");
+        double preco = scanner.nextDouble();
+        scanner.nextLine(); 
+        Produto produto2 = new Produto(nome, preco);
+        System.out.println("\nInformações do produto:");
+        produto2.exibirInformacoes();
+
+        System.out.println("\nCrie um produto usando o nome, o preço e a quantidade em estoque:");
+        System.out.print("Informe o nome do produto: ");
+        nome = scanner.nextLine();
+        System.out.print("Informe o preço do produto: ");
+        preco = scanner.nextDouble();
+        System.out.print("Informe a quantidade em estoque do produto: ");
+        int quantidadeEmEstoque = scanner.nextInt();
+        Produto produto3 = new Produto(nome, preco, quantidadeEmEstoque);
+        System.out.println("\nInformações do produto:");
+        produto3.exibirInformacoes();
+
+        scanner.close();
+    }
+}
